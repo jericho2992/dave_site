@@ -19,8 +19,8 @@
 	.main {
 		border-top: solid white 3px;
 		padding: 0.1em 1.5em 1em 1.5em;
-		margin: 2em 2em 0em 2em;
-		min-width: 55vw;
+		margin: 2em 2em 0em 0em;
+		width: 85%;
 		opacity: 0.8;
 		background: linear-gradient(rgb(0,50,50), rgb(0,75,75), transparent)
 	}

@@ -105,7 +105,12 @@
     </div>
 </main>
 <style>
+    div {
+        margin: 0;
+        padding: 0;
+    }
 	main {
+        position: fixed;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -115,6 +120,7 @@
 		background-image: radial-gradient(rgb(0,30,30),rgb(0,50,50));
 		min-height: 100vh;
 		min-width: 100vw;
+        font-size: 1em;
 	}
     .top{
         display: flex;
@@ -133,22 +139,58 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        justify-items: space-between;
     }
-    .jobs{
-        display: flex;
-		flex-direction: column;
-		align-items: start;
-		color: white; 
+    
+    @media only screen and (min-width: 601px)
+    {
+        .jobs{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            color: white; 
+            min-width: 55vw;
+            width: 55vw;
+            max-width: 55vw;
+        }
+        .skills {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            min-width: 30vw;
+            width: 30vw;
+            max-width: 30vw;
+            min-height: 80vh;
+            background-image: radial-gradient(rgb(0,60,60), transparent);
+            margin-top: 2em;
+        }
     }
-    .skills {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        min-width: 30vw;
-        min-height: 80vh;
-        background-image: radial-gradient(rgb(0,60,60), transparent);
-        margin-top: 2em;
+    @media only screen and (max-width: 600px) 
+    {
+        .jobs{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            color: white; 
+            min-width: 45vw;
+            width: 45w;
+            max-width: 45vw;
+        }
+        .skills {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            min-width: 50vw;
+            width: 50vw;
+            max-width: 50vw;
+            min-height: 80vh;
+            background-image: radial-gradient(rgb(0,60,60), transparent);
+            margin-top: 2em;
+            margin-left: 1em;
+        }
+
     }
+
     .skills h2 {
         text-align: center;
     }
