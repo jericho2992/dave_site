@@ -110,7 +110,6 @@
         padding: 0;
     }
 	main {
-        position: fixed;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
