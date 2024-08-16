@@ -135,59 +135,44 @@
     .top a:hover {
         color: rgb(0,100,75)
     }
-    .content {
+        .jobs{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        color: white; 
+        min-width: 55vw;
+        width: 55vw;
+        max-width: 55vw;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        min-width: 30vw;
+        width: 30vw;
+        max-width: 30vw;
+        min-height: 80vh;
+        background-image: radial-gradient(rgb(0,60,60), transparent);
+        margin-top: 2em;
+    }
+
+    @media only screen and (min-width: 601px)
+    {
+        .content {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-items: space-between;
     }
-    
-    @media only screen and (min-width: 601px)
-    {
-        .jobs{
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            color: white; 
-            min-width: 55vw;
-            width: 55vw;
-            max-width: 55vw;
-        }
-        .skills {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            min-width: 30vw;
-            width: 30vw;
-            max-width: 30vw;
-            min-height: 80vh;
-            background-image: radial-gradient(rgb(0,60,60), transparent);
-            margin-top: 2em;
-        }
     }
     @media only screen and (max-width: 600px) 
     {
-        .jobs{
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            color: white; 
-            min-width: 45vw;
-            width: 45w;
-            max-width: 45vw;
-        }
-        .skills {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            min-width: 50vw;
-            width: 50vw;
-            max-width: 50vw;
-            min-height: 80vh;
-            background-image: radial-gradient(rgb(0,60,60), transparent);
-            margin-top: 2em;
-            margin-left: 1em;
-        }
+        .content {
+        display: column;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-items: space-between;
+    }
 
     }
 
