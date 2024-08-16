@@ -134,35 +134,34 @@
     .top a:hover {
         color: rgb(0,100,75)
     }
-        .jobs{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        color: white; 
-        min-width: 55vw;
-        width: 55vw;
-        max-width: 55vw;
-    }
-    .skills {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        min-width: 30vw;
-        width: 30vw;
-        max-width: 30vw;
-        min-height: 80vh;
-        background-image: radial-gradient(rgb(0,60,60), transparent);
-        margin-top: 2em;
-    }
-
-    @media only screen and (min-width: 601px)
+       @media only screen and (min-width: 601px)
     {
         .content {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-items: space-between;
-    }
+        justify-items: space-between;        
+        }
+        .jobs{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            color: white; 
+            min-width: 55vw;
+            width: 55vw;
+            max-width: 55vw;
+        }
+        .skills {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            min-width: 30vw;
+            width: 30vw;
+            max-width: 30vw;
+            min-height: 80vh;
+            background-image: radial-gradient(rgb(0,60,60), transparent);
+            margin-top: 2em;
+        }
     }
     @media only screen and (max-width: 600px) 
     {
@@ -171,7 +170,27 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-items: space-between;
-    }
+        }
+        .jobs{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            color: white; 
+            min-width: 80vw;
+            width: 80vw;
+            max-width: 80vw;
+        }
+        .skills {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            min-width: 80vw;
+            width: 80vw;
+            max-width: 80vw;
+            min-height: 80vh;
+            background-image: radial-gradient(rgb(0,60,60), transparent);
+            margin-top: 2em;
+        }
 
     }
 
