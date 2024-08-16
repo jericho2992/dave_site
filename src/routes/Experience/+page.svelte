@@ -105,6 +105,11 @@
     </div>
 </main>
 <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: radial-gradient(rgb(0,30,30),rgb(0,50,50));
+    }
     div {
         margin: 0;
         padding: 0;
