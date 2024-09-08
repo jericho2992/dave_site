@@ -26,7 +26,7 @@
 <style>
 	ul {
 		padding: 0.25em 1em;
-		background-image: radial-gradient(rgb(225,225,225), rgb(175,175,175) 80%, transparent);
+		background-image: linear-gradient(to right, rgb(200,200,200), rgb(125,125,125), transparent);
 		list-style-position: inside;
 		color: black;
 		opacity: 0.75;

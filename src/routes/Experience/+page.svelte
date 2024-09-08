@@ -29,13 +29,17 @@
                 title = {"Esports Coach"}
                 employer = {"Concord Education"}
                 bullets = {[
-                {
-                        text: "Bullet 1",
-                        skills: ["Project managment"]
+                    {
+                        text: "Coordinated with internal and external stakeholders on goals, processes, scheduling, and pedagogy",
+                        skills: ["Operations Analyis","Stakeholder Management","Customer Support"]
                     },
                     {
-                        text: "Bullet 2",
-                        skills: ["Project managment"]
+                        text: "Engineered a server-hosted bot to arrange matches, track team records, and create standings based on a proprietary ELO system",
+                        skills: ["Node.js","Javascript","C#","Discord"]
+                    },
+                    {
+                        text: "Engineered a live-updating overlay scoreboard to generate interactive and immersive graphics from game data during esports broadcasts",
+                        skills: ["Open Broadcaster Software","HTML","CSS","Javascript","Svelte"]
                     },
                 ]}
                 >
@@ -45,12 +49,16 @@
                 employer = {"Boosey & Hawkes"}
                 bullets = {[
                 {
-                        text: "Bullet 1",
-                        skills: ["Project managment"]
+                        text: "Coordinated requests, contracts, materials, and rights all western-hemisphere small-rights performances for all internal and administered IP",
+                        skills: ["Customer Support", ]
                     },
                     {
-                        text: "Bullet 2",
-                        skills: ["Project managment"]
+                        text: "Analyzed rental trends and created dashboards for collaborative strategy meetings",
+                        skills: ["Operational Analysis","R","RStudio","Flexdash"]
+                    },
+                    {
+                        text: "Engineered pricing schedule web tool that increased quoting efficiency by 78%",
+                        skills: ["HTML","CSS","Javascript","Svelte"]
                     },
                 ]}
                 >
